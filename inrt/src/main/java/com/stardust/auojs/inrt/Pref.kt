@@ -45,6 +45,6 @@ object Pref {
     }
 
     fun shouldStopAllScriptsWhenVolumeUp(): Boolean {
-        return preferences.getBoolean(getString(R.string.key_use_volume_control_running), true)
+        return preferences.getBoolean(getString(R.string.key_use_volume_control_running), false)
     }
 }
